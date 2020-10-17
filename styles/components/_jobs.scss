@@ -1,0 +1,53 @@
+#jobs {
+  padding: 100px 0;
+  .jobs-slider {
+    .job-slide {
+      padding: 5px;
+      .job-slide-content {
+        background-color: var(--primary);
+        color: var(--light);
+        .job-text {
+          padding: 10px 10px 0 10px;
+        }
+        .action {
+          text-align: right;
+          .btn {
+            background: var(--secondary);
+            border: 0;
+            border-radius: 0;
+            color: var(--primary);
+            text-transform: uppercase;
+          }
+        }
+        &:hover {
+          background-color: var(--secondary);
+          transition: 0.3s;
+          .job-text {
+            h4 {
+              color: var(--primary);
+            }
+            p {
+              color: var(--black);
+            }
+          }
+          .action {
+            .btn {
+              background: var(--primary);
+              color: var(--light);
+              transition: 0.3s;
+            }
+          }
+        }
+      }
+    }
+    .slick-dots {
+      li {
+        button {
+          &:before {
+            color: var(--primary);
+          }
+        }
+      }
+    }
+  }
+}

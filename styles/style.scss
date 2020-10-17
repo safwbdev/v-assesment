@@ -1,0 +1,17 @@
+:root {
+  --black: #000000;
+  --primary: hsl(25, 81%, 54%);
+  --secondary: #ebebeb;
+  --light: #ffffff;
+  --f-regular: 400;
+  --f-bold: 700;
+}
+@import "components/root";
+@import "components/header";
+@import "components/main";
+@import "components/jobs";
+@import "components/about";
+@import "components/testimonials";
+@import "components/careers";
+@import "components/insights";
+@import "components/footer";

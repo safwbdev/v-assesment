@@ -1,0 +1,31 @@
+#about {
+  text-align: center;
+  color: var(--light);
+  padding: 100px 0;
+  background-image: url("https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  .header-section {
+    text-shadow: 2px 2px 5px #000000;
+  }
+  .about-content {
+    text-align: left;
+    text-shadow: 2px 2px 5px #000000;
+  }
+  .primary-button {
+    width: 15%;
+  }
+  @media screen and (max-width: 568px) {
+    .header-section {
+      padding: 20px;
+    }
+    .about-content {
+      padding: 40px;
+      text-align: center;
+    }
+    .primary-button {
+      width: 70%;
+    }
+  }
+}
