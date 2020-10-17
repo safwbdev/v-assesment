@@ -72,6 +72,10 @@
   border-top: 5px solid transparent;
 }
 
+.navbar li.nav-item:not(.login-item) {
+  text-shadow: 1px 1px 3px #000000 !important;
+}
+
 @media screen and (min-width: 768px) {
   .navbar {
     padding-top: 0;
@@ -114,6 +118,9 @@
   }
   .navbar ul li.nav-item:not(.login-item):hover a {
     color: var(--primary) !important;
+  }
+  .navbar ul li a {
+    text-shadow: none !important;
   }
 }
 
@@ -483,7 +490,7 @@ footer .social-footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 footer .social-footer a {
