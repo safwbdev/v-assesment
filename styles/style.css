@@ -87,6 +87,9 @@
   .navbar .nav-item:not(.login-item):hover a {
     color: var(--primary) !important;
   }
+  .navbar .login-item {
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 768px) {
