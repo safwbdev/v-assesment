@@ -131,7 +131,7 @@ html {
 }
 
 #main {
-  background-image: url("https://images.pexels.com/photos/986831/pexels-photo-986831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("/assets/main-banner.jpg");
   background-size: cover;
   height: 100vh;
   display: -webkit-box;
@@ -295,7 +295,7 @@ html {
   text-align: center;
   color: var(--light);
   padding: 100px 0;
-  background-image: url("https://images.pexels.com/photos/373639/pexels-photo-373639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-image: url("/assets/about-us.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -406,7 +406,7 @@ html {
 }
 
 #careers .work-image {
-  background-image: url("https://images.pexels.com/photos/4413295/pexels-photo-4413295.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-image: url("/assets/join-us.jpg");
   background-size: cover;
   background-position: center center;
 }
