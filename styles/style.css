@@ -1,10 +1,9 @@
 :root {
-  --black: #000000;
   --primary: hsl(25, 81%, 54%);
   --secondary: #ebebeb;
+  --dark: #000000;
   --light: #ffffff;
-  --f-regular: 400;
-  --f-bold: 700;
+  --footer: #3b3f4a;
 }
 
 html {
@@ -64,7 +63,7 @@ html {
 
 .navbar li .btn-login {
   background-color: var(--secondary);
-  color: var(--black) !important;
+  color: var(--dark) !important;
 }
 
 .navbar li .btn-register {
@@ -278,7 +277,7 @@ html {
 }
 
 #jobs .jobs-slider .job-slide .job-slide-content:hover .job-text p {
-  color: var(--black);
+  color: var(--dark);
 }
 
 #jobs .jobs-slider .job-slide .job-slide-content:hover .action .btn {
@@ -481,7 +480,7 @@ html {
 }
 
 footer {
-  background-color: var(--black);
+  background-color: var(--footer);
   color: var(--light);
   text-align: center;
   padding: 50px 0;
@@ -510,18 +509,19 @@ footer .social-footer a i {
   padding: 1em;
 }
 
-footer .social-footer a:nth-child(odd) i {
+footer .social-footer a:nth-child(even) i {
   background: var(--secondary);
   color: var(--primary);
 }
 
-footer .social-footer a:nth-child(even) i {
+footer .social-footer a:nth-child(odd) i {
   color: var(--light);
   background: var(--primary);
 }
 
 footer .contact-footer {
   text-align: center;
+  color: var(--secondary);
 }
 
 footer .contact-footer i {
@@ -537,6 +537,18 @@ footer .contact-footer a,
 footer .contact-footer span {
   color: var(--light);
   font-size: 0.7em;
+}
+
+@media screen and (min-width: 568px) {
+  footer .contact-footer:nth-child(2) {
+    border-left: 1px solid var(--light);
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  footer .contact-footer:nth-child(2) {
+    border-left: 0;
+  }
 }
 
 @media screen and (max-width: 568px) {

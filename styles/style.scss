@@ -1,10 +1,9 @@
 :root {
-  --black: #000000;
   --primary: hsl(25, 81%, 54%);
   --secondary: #ebebeb;
+  --dark: #000000;
   --light: #ffffff;
-  --f-regular: 400;
-  --f-bold: 700;
+  --footer: #3b3f4a;
 }
 @import "components/root";
 @import "components/header";
