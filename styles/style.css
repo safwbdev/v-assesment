@@ -7,6 +7,10 @@
   --f-bold: 700;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .header-section {
   padding: 20px 0;
 }
