@@ -8,10 +8,18 @@
   background-attachment: fixed;
   .header-section {
     text-shadow: 2px 2px 5px #000000;
+    p {
+      font-size: 1.4em;
+      line-height: 1.8em;
+    }
   }
   .about-content {
     text-align: left;
     text-shadow: 2px 2px 5px #000000;
+    p {
+      font-size: 1em;
+      line-height: 1.8em;
+    }
   }
   .primary-button {
     width: 15%;

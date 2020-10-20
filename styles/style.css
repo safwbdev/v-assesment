@@ -119,6 +119,9 @@ html {
   .navbar .navbar-collapse ul li .btn-register {
     border: 1px solid var(--light);
   }
+  .navbar .navbar-collapse ul li.nav-item:hover a {
+    color: red !important;
+  }
   .navbar ul li.nav-item:not(.login-item) {
     margin: 0 0.7em;
   }
@@ -305,9 +308,19 @@ html {
   text-shadow: 2px 2px 5px #000000;
 }
 
+#about .header-section p {
+  font-size: 1.4em;
+  line-height: 1.8em;
+}
+
 #about .about-content {
   text-align: left;
   text-shadow: 2px 2px 5px #000000;
+}
+
+#about .about-content p {
+  font-size: 1em;
+  line-height: 1.8em;
 }
 
 #about .primary-button {

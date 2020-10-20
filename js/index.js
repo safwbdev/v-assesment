@@ -1,3 +1,5 @@
+// SLIDERS
+// =======
 $(document).ready(function () {
   $(".first-slider").slick({
     infinite: true,
@@ -75,5 +77,10 @@ $(document).ready(function () {
         },
       },
     ],
+  });
+  // MOBILE MENU
+  // ===========
+  $(".nav-link").on("click", function () {
+    $(".navbar-collapse").collapse("hide");
   });
 });
